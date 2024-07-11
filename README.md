@@ -3,9 +3,7 @@
 
 <p>
     For this week's milestone, focusing on the fundamentals of JavaScript, you will apply what you've learned by building a simple, interactive webpage.
-
     This project will incorporate JavaScript syntax, control structures, basic functions, DOM manipulation, and event handling.
-
     You'll be tasked with creating two features for this webpage: a basic quiz application and a simple calculator.
 </p>
 
@@ -22,9 +20,7 @@
 
 <p>
     Your task is to implement the JavaScript functionality for a quiz application.
-
     You will be working with the provided HTML and CSS template, which structures and styles the quiz. Your goal is to bring this quiz to life, making it interacive and functional.
-
     Given the final explected JavaScript output for the Simple Interactive Quiz task,let's create a set of explicit instructions. These will guide the learners to produce the exact code, ensuring uniform submissions suitable for automated checking.
 </p>
 
