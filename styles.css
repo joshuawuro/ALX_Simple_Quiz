@@ -64,4 +64,5 @@ label {
 #feedback {
     margin-top: var(--mg-20);
     font-size: var(--mg-18);
+    font-style: italic;
 }
