@@ -8,7 +8,7 @@ selectedValue.value = userAnswer;
 
 const feedback = document.getElementById('feedback');
 
-if (correctAnswer = userAnswer){
+if (correctAnswer === userAnswer){
     feedback.textContent = "Correct! Well done." 
 } else if (correctAnswer != userAnswer) {
     feedback.textContent = "That's incorrect. Try again!"
