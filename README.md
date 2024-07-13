@@ -107,25 +107,27 @@
     <li>
         Implement Arithmetic Functions: Each arithmetic operation (add, subtract, multiplym divide) should have its own fuction. For example
     </li>
-
+</ol>
+    <p>
     function add(number1, number2) {
         return number1 + number2;
     }
     Implement similar functions for subtraction, multiplication, and division.
-
-    <i>
+    </p>
+<ol>
+    <li>
         Attach Event Listeners: For each operation button, add an event listener that calls the corresponding arithmetic function when clicked. Use the input values from the number fields as arguments for these functions. Display the result in the #calculation-result span.
-    </i>
+    </li>
+</ol>
     Example for the addition button:
-
-    document.getElementById('add').addEventListener('click', function() {
-        const number1 = parseFloat(document.getElementById('number1').value) || 0;
-        const number2 = parseFloat(document.getElementById('number2').value) || 0;
-        const result = add(number1, number2);
-        document.getElementById('calculation-result').textContent = result;
-    });
-
-    Repeat similar steps to attach event listeners for the subtract, multiply, and divide buttons.
+        document.getElementById('add').addEventListener('click', function() {
+            const number1 = parseFloat(document.getElementById('number1').value) || 0;
+            const number2 = parseFloat(document.getElementById('number2').value) || 0;
+            const result = add(number1, number2);
+            document.getElementById('calculation-result').textContent = result;
+        });
+        Repeat similar steps to attach event listeners for the subtract, multiply, and divide buttons.
+<ol>
     <li>
         Ensure Input Validation: Convert input values to numbers (using parseFloat) to ensure the calculations are correct. Provide default values to handle empty inputs.
     </li>
