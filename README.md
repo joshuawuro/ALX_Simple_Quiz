@@ -91,6 +91,46 @@
 
 <!-- SECOND TASK -->
 <h2>1. Build a Simple Calculator</h2>
+
+<p>
+    For this task, let's structure a simple calculator application. This application will perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+    This task will help you apply fundamentals JavaScript concepts to create an interaciveweb application.
+</p>
+
+<h2>JavaScript Task Instuctions</h2>
+<p>
+    Objective: Implement the JavaScriptl to make the calculatoroperational. Each button should perform its respective arithmetic operation on the two input m=numbers and display the result.
+</p>
+
+<h3>JavaScript Implementation:</h3>
+<ol>
+    <li>
+        Implement Arithmetic Functions: Each arithmetic operation (add, subtract, multiplym divide) should have its own fuction. For example
+    </li>
+
+    function add(number1, number2) {
+        return number1 + number2;
+    }
+    Implement similar functions for subtraction, multiplication, and division.
+
+    <i>
+        Attach Event Listeners: For each operation button, add an event listener that calls the corresponding arithmetic function when clicked. Use the input values from the number fields as arguments for these functions. Display the result in the #calculation-result span.
+    </i>
+    Example for the addition button:
+
+    document.getElementById('add').addEventListener('click', function() {
+        const number1 = parseFloat(document.getElementById('number1').value) || 0;
+        const number2 = parseFloat(document.getElementById('number2').value) || 0;
+        const result = add(number1, number2);
+        document.getElementById('calculation-result').textContent = result;
+    });
+
+    Repeat similar steps to attach event listeners for the subtract, multiply, and divide buttons.
+    <li>
+        Ensure Input Validation: Convert input values to numbers (using parseFloat) to ensure the calculations are correct. Provide default values to handle empty inputs.
+    </li>
+</ol>
+
 <h3>Repo:</h3>
 <ul>
     <li>
