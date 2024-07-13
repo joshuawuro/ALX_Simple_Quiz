@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: #007bff;
+    --bg-shadow: rgba(0,0,0,0.1);
+    --bg-hover: #0056b3;
+    --white: #fff;
+    --mg-5: 5px;
+    --mg-8: 8px;
+    --mg-10: 10px;
+    --mg-16: 16px;
+    --mg-18: 18px;
+    --mg-20: 20px;
+    --mg-30: 30px;
+    --mg-100: 100vh;
+    --mg-200: 200px;
+    --mg-600: 600px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--mg-100);
+    margin: 0;
+}
+
+#calculator-container {
+    text-align: center;
+}
+
+input[type="number"] {
+    margin: var(--mg-10);
+    padding: var(--mg-10);
+    width: var(--mg-200);
+    font-size: var(--mg-16);
+}
+
+button {
+    padding: var(--mg-10) var(--mg-20);
+    margin: var(--mg-5);
+    font-size: var(--mg-16);
+    cursor: pointer;
+}
+
+#result {
+    margin-top: var(--mg-20);
+    font-size: var(--mg-20);
+}
